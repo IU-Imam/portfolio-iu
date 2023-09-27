@@ -3,7 +3,7 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiFillGithub,
 } from 'react-icons/ai'
 
 import Image from 'next/image'
@@ -56,7 +56,7 @@ export default function Home() {
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
             <AiFillTwitterCircle />
             <AiFillLinkedin />
-            <AiFillYoutube />
+            <AiFillGithub />
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-white rounded-full w-80 h-80 m-20 overflow-hidden px-2 shadow-lg dark:from-gray-500'>
             <Image src={im} alt='' layout='fill' objectFit='fill' />
