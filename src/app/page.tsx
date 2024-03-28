@@ -114,20 +114,21 @@ return (
               Imam Uddin
             </h2>
             <h3 className='text-2xl py-2 dark:text-yellow-50'>
-              A versatile developer and designer
+              Freelance Programmer | AI Enthusiast
             </h3>
             <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-400'>
-              I am a freelance programmer offering a wide range of programming
-              services. I'm enthusiastic about taking on new opportunities,
-              collaborating on exciting projects, and tackling challenging
-              tasks.
+              Welcome to my portfolio website! I'm Imam Uddin, an AI enthusiast and freelance programmer passionate about harnessing the power of artificial intelligence to solve complex problems 
+              and create innovative solutions. 
+              With a strong background in programming and a keen interest in AI technologies, I offer a wide range of services to meet your project needs.
             </p>
-          </div>
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillGithub />
-          </div>
+          <div>
+  <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
+    <a href="https://twitter.com/your_twitter_username" target="_blank" rel="noopener noreferrer"><AiFillTwitterCircle /></a>
+    <a href="https://linkedin.com/in/imam-uddin-iu" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
+    <a href="https://github.com/IU-Imam" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+  </div>
+</div>
+
           <div className='relative mx-auto bg-gradient-to-b from-white rounded-full w-80 h-80 m-20 overflow-hidden px-2 shadow-lg dark:from-gray-500'>
             <Image src={im} alt='' layout='fill' objectFit='fill' />
           </div>
@@ -137,10 +138,8 @@ return (
           <div className='dark:text-gray-300 py-24' id='services'>
             <h3 className='text-3xl py-1'>Service I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-80'>
-              Whether you're looking to turn your project ideas into reality or
-              need assistance with your tech-related endeavors, please don't
-              hesitate to get in touch. I am eager to hear from you and explore
-              how we can collaborate to accomplish your objectives.
+              AI Solutions: From machine learning models to natural language processing systems, 
+              I develop AI-powered solutions that leverage cutting-edge technologies to drive innovation and deliver tangible results.
             </p>
           </div>
           <div className='lg:flex gap-10 dark:text-gray-300 '>
@@ -241,12 +240,11 @@ return (
 
 
         <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-    <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" className="hover:underline">Imam Uddin</a>. All Rights Reserved.
-    </span>
-    
-    </div>
+  <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {new Date().getFullYear()} <a href="#" className="hover:underline">Imam Uddin</a>. All Rights Reserved.</span>
+  </div>
 </footer>
+
       </main>
     </div>
   )
